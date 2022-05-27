@@ -7,7 +7,7 @@
     tools:context=".Admin">
 
     <Button
-        android:id="@+id/user"
+        android:id="@+id/Admin"
         android:layout_width="269dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -17,5 +17,17 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/border_redondeado3"
         android:text="@string/inicio_sesion" />
+
+    <Button
+        android:id="@+id/admin2"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="359dp"
+        android:background="@drawable/border_redondeado3"
+        android:text="@string/Acceso" />
 
 </RelativeLayout>
