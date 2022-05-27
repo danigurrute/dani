@@ -6,6 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".usuariocliente">
 
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="304dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="278dp"
+        android:background="@drawable/borde_editext"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="621dp"
+        android:background="@drawable/border_redondeado3"
+        android:text="ACCESO"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="36dp" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="136dp"
@@ -15,7 +43,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="49dp"
         android:background="@drawable/border_redondeado3"
-        android:text="INICIO DE SESION "
+        android:text="INICIO DE SESION"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="59dp"
         tools:layout_editor_absoluteY="36dp" />
@@ -33,4 +61,26 @@
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="231dp"
         tools:layout_editor_absoluteY="40dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="304dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/borde_editext"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="137dp"
+        android:text="TextView" />
 </RelativeLayout>
