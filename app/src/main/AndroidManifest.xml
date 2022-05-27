@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
         <activity
-            android:name=".usuariocliente"
-            android:exported="false" />
-        <activity
             android:name=".Usuariorecolector"
             android:exported="false" />
         <activity
@@ -26,7 +23,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true"></activity>
     </application>
 
 </manifest>
