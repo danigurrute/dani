@@ -12,6 +12,10 @@
         <activity
             android:name=".Usuariorecolector"
             android:exported="false" />
+
+        <activity
+            android:name=".usuariocliente"
+            android:exported="false" />
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true">
