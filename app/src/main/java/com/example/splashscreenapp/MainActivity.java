@@ -21,7 +21,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent=new Intent( this, Usuariorecolector.class );
                 startActivity(intent);
                 break;
+            case R.id.user:
+                Intent intent1=new Intent(MainActivity.this, usuariocliente.class);
+                startActivity(intent1);
+                break;
+
 
         }
     }
+
+
 }
